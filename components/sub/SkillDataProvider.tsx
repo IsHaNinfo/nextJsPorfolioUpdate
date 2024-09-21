@@ -3,10 +3,10 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import Image from 'next/image';
+import Image, { StaticImageData } from "next/image";
 
 interface Props {
-    src: string;
+    src: string | StaticImageData;
     width: number;
     height: number;
     index: number;

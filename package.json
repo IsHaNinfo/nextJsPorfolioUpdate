@@ -10,11 +10,13 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.1.5",
+    "firebase": "^10.13.2",
     "myportfolio": "file:",
     "next": "14.2.11",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^5.3.0"
+    "react-icons": "^5.3.0",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "@react-three/drei": "^9.112.0",
