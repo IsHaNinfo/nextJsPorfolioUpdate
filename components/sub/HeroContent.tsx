@@ -48,10 +48,11 @@ const HeroContent = () => {
           I&apos;am a Full Stack Developer with extensive experience in website development, backend engineering, and server management. I specialize in building robust web and mobile applications, designing scalable backend systems, and managing cloud-based server infrastructure. With a strong foundation in both frontend and backend technologies, 
         </motion.p>
         <motion.a
+        href="#projects"
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn More!
+          See More!
         </motion.a>
       </div>
 

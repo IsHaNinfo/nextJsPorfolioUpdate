@@ -9,7 +9,10 @@ import Footer from "@/components/main/Footer";
 const inter = Inter ({subsets :['latin']})
 
 export const metadata: Metadata = {
-  title: "Ishan Nethmina",
+  title: "Ishan Nethmina ",
+  icons: {
+    icon: "/NavLogo.png"
+  },
 };
 
 export default function RootLayout({
