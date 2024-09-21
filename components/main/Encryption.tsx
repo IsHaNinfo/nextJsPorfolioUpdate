@@ -2,7 +2,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { slideInFromTop } from "@/utils/motion";
-import Image from "next/image";
 
 const educationData = [
   { degree: "Bachelor of Science in Information Technology & Management ", school: "University of Moratuwa", year: "2021 - Present" },

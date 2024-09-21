@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Hero from "@/components/main/Hero"
 import Skils from "@/components/main/Skils"
 import Encryption from "@/components/main/Encryption";
