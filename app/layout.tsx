@@ -9,7 +9,7 @@ const inter = Inter ({subsets :['latin']})
 export const metadata: Metadata = {
   title: "Ishan Nethmina ",
   icons: {
-    icon: "/NavLogo.png"
+    icon: "./NavLogo.png"
   },
 };
 
