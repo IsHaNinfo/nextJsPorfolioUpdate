@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { slideInFromTop } from "@/utils/motion";
 
 const educationData = [
-  { degree: "Bachelor of Science in Information Technology & Management ", school: "University of Moratuwa", year: "2021 - Present" },
+  { degree: "Bachelor of Science in Information Technology & Management", school: "University of Moratuwa", year: "2021 - Present" },
 ];
 
 const experienceData = [
@@ -19,7 +19,7 @@ const Encryption = () => {
       <div className="absolute w-auto h-auto top-0 z-[5]">
         <motion.div
           variants={slideInFromTop}
-          className="text-[40px] font-medium text-center text-gray-200"
+          className="text-[30px] md:text-[40px] font-medium text-center text-gray-200"
         >
           Education
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
@@ -31,16 +31,16 @@ const Encryption = () => {
       </div>
 
       {/* Content Section */}
-      <div className="flex flex-row justify-center gap-10 mt-20 w-full px-10">
+      <div className="flex flex-col md:flex-row justify-center gap-10 mt-20 w-full px-5 md:px-10">
         {/* Education Section */}
         <div className="flex-1 bg-gradient-to-r from-purple-500 to-cyan-500 p-6 rounded-lg shadow-lg">
-          <h2 className="text-[30px] font-semibold mb-4">Education</h2>
+          <h2 className="text-[24px] md:text-[30px] font-semibold mb-4">Education</h2>
           <ul className="space-y-4">
             {educationData.map((edu, index) => (
               <li key={index} className="bg-gray-800 p-4 rounded-lg shadow-md">
-                <h3 className="text-[24px] font-semibold">{edu.degree}</h3>
-                <p className="text-[18px]">{edu.school}</p>
-                <p className="text-[16px] text-gray-400">{edu.year}</p>
+                <h3 className="text-[20px] md:text-[24px] font-semibold">{edu.degree}</h3>
+                <p className="text-[16px] md:text-[18px]">{edu.school}</p>
+                <p className="text-[14px] md:text-[16px] text-gray-400">{edu.year}</p>
               </li>
             ))}
           </ul>
@@ -48,13 +48,13 @@ const Encryption = () => {
 
         {/* Experience Section */}
         <div className="flex-1 bg-gradient-to-r from-purple-500 to-cyan-500 p-6 rounded-lg shadow-lg">
-          <h2 className="text-[30px] font-semibold mb-4">Experience</h2>
+          <h2 className="text-[24px] md:text-[30px] font-semibold mb-4">Experience</h2>
           <ul className="space-y-4">
             {experienceData.map((exp, index) => (
               <li key={index} className="bg-gray-800 p-4 rounded-lg shadow-md">
-                <h3 className="text-[24px] font-semibold">{exp.position}</h3>
-                <p className="text-[18px]">{exp.company}</p>
-                <p className="text-[16px] text-gray-400">{exp.duration}</p>
+                <h3 className="text-[20px] md:text-[24px] font-semibold">{exp.position}</h3>
+                <p className="text-[16px] md:text-[18px]">{exp.company}</p>
+                <p className="text-[14px] md:text-[16px] text-gray-400">{exp.duration}</p>
               </li>
             ))}
           </ul>
