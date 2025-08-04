@@ -5,6 +5,9 @@ import pm from "../../public/pm.png"
 import wattcheck from "../../public/wattcheck.png"
 import oijo from "../../public/oijo.png"
 import tangora from "../../public/tangora.jpg"
+import loanguard from "../../public/LoanGuard.png"
+import ealgebrify from "../../public/E-Algebrify.png"
+import DRS from "../../public/DRS.png"
 import Image, { StaticImageData } from "next/image";
 
 interface Props {
@@ -42,7 +45,7 @@ const Projects = () => {
         Featured Works
       </h1>
       <div className="h-full w-full grid grid-cols-1 md:grid-cols-3 gap-10 px-10">
-      <ProjectCard
+        <ProjectCard
           src={blackfamily}
           title="Black Family Chat App"
           role="Back End Developer"
@@ -60,13 +63,13 @@ const Projects = () => {
           role="Full Stack Developer"
           description="A project management system was developed for Hasthiya IT to streamline the management of projects, employees, and tasks. This system enables efficient task assignment, progress tracking, and team collaboration, ensuring seamless workflow and project execution. It enhances overall productivity by providing a centralized platform for effective project and resource management."
         />
-         <ProjectCard
+        <ProjectCard
           src={wattcheck}
           title="Watt Checker Mobile App"
           role="Back End Developer"
           description="The app lets users scan barcodes, compare energy costs, and receive personalized tips. Features include a product history log, energy calculators, and community-shared utility rates to help manage energy consumption efficiently and redeem rewards."
         />
-          <ProjectCard
+        <ProjectCard
           src={oijo}
           title="Oi-Jo Car Rental Web Application "
           role="Full Stack Developer"
@@ -78,7 +81,24 @@ const Projects = () => {
           role="Full Stack Developer"
           description="The Tangora Admin Panel, developed for Tangora Cleaning Company in Australia, manages clients, employees, cleaning schedules, and payment summaries, streamlining operations for efficient scheduling, employee management, and financial tracking."
         />
-      
+        <ProjectCard
+          src={loanguard}
+          title="Fund Flow"
+          role="Full Stack Developer"
+          description="FundFlow is a modern microfinance platform that streamlines loan processing and management. Built with Next.js and Node.js, it features a smart credit scoring algorithm and comprehensive admin dashboard."
+        />
+        <ProjectCard
+          src={ealgebrify}
+          title="E-Algebrify"
+          role="Full Stack Developer"
+          description="E-Algebrify  provide structured, practical algebra practice with conceptual questions, step-by-step problems, and exam-style tasks. Featuring automated feedback, progress tracking, and leaderboard rankings, they help students improve skills, build confidence, and stay engaged."
+        />
+        <ProjectCard
+          src={DRS}
+          title="Diabetic Risk Prediction & Recommendation System"
+          role="Full Stack Developer"
+          description="Diabetic Risk Prediction and Recommendation System is an intelligent health-focused application developed for both web and mobile platforms. The system aims to assess an individual's risk of developing diabetes using personal health data and machine learning models. Based on the risk level, it provides personalized recommendations related to diet, exercise, and lifestyle improvements to support prevention and management."
+        />
         {/* Add more cards here if necessary */}
       </div>
     </div>
